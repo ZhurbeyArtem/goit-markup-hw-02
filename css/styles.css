@@ -1,10 +1,10 @@
-body{
+body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02rem;
   color: var(--slate);
-  background-color:var(--white);
+  background-color: var(--white);
 }
 
 * {
@@ -99,8 +99,8 @@ h3 {
 }
 
 .menu-list:hover,
-.menu-link:focus{
-color: #404bbf;
+.menu-link:focus {
+  color: #404bbf;
 }
 
 .contacts {
@@ -114,13 +114,13 @@ color: #404bbf;
   color: var(--slate);
   padding: 24px 0;
   font-size: 16px;
-  line-height: 1.5 ;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .contacts-link:hover,
-.contacts-link:focus{
-color: #404bbf;
+.contacts-link:focus {
+  color: #404bbf;
 }
 
 /* ----------section 1----------- */
