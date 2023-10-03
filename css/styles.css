@@ -167,15 +167,27 @@ h3 {
   margin: 120px 0px;
 }
 
-.about-us-text {
+.about-us-item {
   width: 264px;
   margin: 0 24px 0 0;
 }
 
-.about-us-text-title {
+.about-us-title {
   margin-bottom: 8px;
+     font-weight: 500;
+    font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+     color: var(--navy-blue);
 }
 
+.about-us-text{
+       font-weight: 500;
+    font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: var(--slate);
+}
 /*-------------------------- section 3 ----------------------*/
 
 .we-doing {
