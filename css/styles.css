@@ -89,7 +89,7 @@ h3 {
   display: flex;
 }
 
-.menu-list {
+.item {
   padding: 24px 0;
   color: var(--navy-blue);
   font-weight: 500;
@@ -98,8 +98,8 @@ h3 {
   letter-spacing: 0.02em;
 }
 
-.menu-list:hover,
-.menu-list:focus {
+.item:hover,
+.item:focus {
   color: var(--header-links);
 }
 
@@ -110,7 +110,7 @@ h3 {
   letter-spacing: 0.32px;
 }
 
-.contacts-link {
+.contact {
   color: var(--slate);
   padding: 24px 0;
   font-size: 16px;
