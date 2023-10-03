@@ -98,8 +98,8 @@ h3 {
   letter-spacing: 0.02em;
 }
 
-.item:hover,
-.item:focus {
+.menu-list:hover,
+.menu-list:focus {
   color: var(--header-links);
 }
 
