@@ -18,7 +18,7 @@ body {
   --iris: #4D5AE5;
   --white: #fff;
   --cornflower: #E7E9FC;
-  --header-links: #404bbf;
+  --hover-links: #404bbf;
 }
 
 .container {
@@ -100,7 +100,7 @@ h3 {
 
 .menu-list:hover,
 .menu-list:focus {
-  color: var(--header-links);
+  color: var(--hover-links);
 }
 
 .contacts {
@@ -120,22 +120,24 @@ h3 {
 
 .contact:hover,
 .contact:focus {
-  color: var(--header-links);
+  color: var(--hover-links);
 }
 
 /* ----------section 1----------- */
 
 .solution {
   background-color: var(--navy-blue);
-  color: var(--white);
-  text-align: center;
   padding: 188px 320px;
 }
 
 .solution-text {
   font-weight: bold;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+
 }
 
 .solution-btn {
@@ -146,8 +148,17 @@ h3 {
   margin-top: 48px;
   border: none;
   letter-spacing: 0.04rem;
-  font-weight: medium;
 
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.solution-btn:hover,
+.solution-btn:focus {
+  background-color: var(--hover-links);
 }
 
 /*-----------------------section 2 ---------------------*/
