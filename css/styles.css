@@ -98,7 +98,9 @@ h3 {
   letter-spacing: 0.02em;
 }
 
-.menu-list:hover,
+.menu-list:hover{
+  color: #404bbf;
+}
 .menu-link:focus {
   color: #404bbf;
 }
@@ -118,7 +120,9 @@ h3 {
   letter-spacing: 0.02em;
 }
 
-.contacts-link:hover,
+.contacts-link:hover{
+  color: #404bbf;
+}
 .contacts-link:focus {
   color: #404bbf;
 }
