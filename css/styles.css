@@ -59,6 +59,10 @@ h3 {
   text-transform: uppercase;
 }
 
+.list {
+  list-style: none;
+}
+
 /*----------------header---------------------*/
 .header {
   border-bottom: 1px solid var(--cornflower);
@@ -83,10 +87,6 @@ h3 {
 
 .menu {
   display: flex;
-}
-
-.list {
-  list-style: none;
 }
 
 .menu-list {
@@ -118,8 +118,8 @@ h3 {
   letter-spacing: 0.02em;
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.contact:hover,
+.contact:focus {
   color: var(--header-links);
 }
 
