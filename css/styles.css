@@ -98,10 +98,8 @@ h3 {
   letter-spacing: 0.02em;
 }
 
-.menu-list:hover{
-  color: #404bbf;
-}
-.menu-link:focus {
+.menu-list:hover,
+.menu-list:focus {
   color: #404bbf;
 }
 
