@@ -57,7 +57,7 @@ h2 {
   color: var(--navy-blue);
 }
 
-.paragraph{
+.paragraph {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -253,12 +253,11 @@ h2 {
 
 .footer-logo {
   margin: 0 0 18px 0;
-  color:var(--iris)
-
+  color: var(--iris)
 }
 
-.footer-logo-text{
-    color: var(--cloud);
+.footer-logo-text {
+  color: var(--cloud);
 }
 
 .footer-text {
@@ -291,9 +290,9 @@ h2 {
   border: 1px solid var(--cornflower);
   border-radius: 4px;
 
- font-family: "Roboto", sans-serif;
- letter-spacing: 0.04em;
- cursor:pointer;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .filters-button:focus,
