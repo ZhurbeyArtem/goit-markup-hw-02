@@ -96,7 +96,10 @@ h2 {
 
 .menu {}
 
-.menu-list {}
+.menu-list:hover,
+.menu-list:focus {
+  color: var(--hover-links);
+}
 
 .contacts {
   margin-left: 312px;
