@@ -103,6 +103,8 @@ h3 {
   color: var(--hover-links);
 }
 
+
+
 .contacts {
   margin-left: 312px;
   font-style: normal;
@@ -120,6 +122,11 @@ h3 {
 
 .contact:hover,
 .contact:focus {
+  color: var(--hover-links);
+}
+
+.link:hover,
+.link:focus {
   color: var(--hover-links);
 }
 
