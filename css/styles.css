@@ -265,10 +265,12 @@ h3 {
 
 .footer-logo {
   margin: 0 0 18px 0;
+  color:var(--iris)
+
 }
 
 .footer-logo-text{
-  color:var(--iris)
+    color: var(--cloud);
 }
 
 .footer-text {
