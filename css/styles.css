@@ -298,7 +298,7 @@ h2 {
 
 .filters-button:focus,
 .filters-button:hover {
-  background-color: var(--iris);
+  background-color: var(--hover-links);
   color: var(--white);
 }
 
