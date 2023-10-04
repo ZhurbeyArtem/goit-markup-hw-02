@@ -22,8 +22,6 @@ body {
 }
 
 .container {
-  width: 100%;
-  max-width: 1158px;
   margin: 0 auto;
 }
 
@@ -80,16 +78,11 @@ h2 {
 }
 
 /*----------------header---------------------*/
-.header {
-  border-bottom: 1px solid var(--cornflower);
-
-}
+.header {}
 
 .header-container {
-  display: flex;
   background-color: var(--white);
   text-align: center;
-  align-items: center;
 }
 
 .logo-header {
@@ -101,13 +94,9 @@ h2 {
   color: var(--navy-blue);
 }
 
-.menu {
-  display: flex;
-}
+.menu {}
 
-.menu-list {
-  padding: 24px 0;
-}
+.menu-list {}
 
 .contacts {
   margin-left: 312px;
@@ -133,7 +122,6 @@ h2 {
 
 .solution {
   background-color: var(--navy-blue);
-  padding: 188px 320px;
 }
 
 .solution-text {
@@ -147,9 +135,7 @@ h2 {
 }
 
 .solution-btn {
-  border-radius: 4px;
   background: var(--iris);
-  padding: 16px 32px;
   color: var(--white);
   margin-top: 48px;
   border: none;
@@ -169,12 +155,10 @@ h2 {
 
 /*-----------------------section 2 ---------------------*/
 .about-us-list {
-  display: flex;
   margin: 120px 0px;
 }
 
 .about-us-item {
-  width: 264px;
   margin: 0 24px 0 0;
 }
 
@@ -207,7 +191,6 @@ h2 {
 /*----------------------------- section 4 ---------------*/
 
 .team {
-  padding: 120px 0;
   text-align: center;
   background-color: var(--cloud);
 }
@@ -224,7 +207,6 @@ h2 {
 
 .team-item {
   margin-right: 24px;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   background-color: var(--white);
 }
 
@@ -247,7 +229,6 @@ h2 {
 /* -------------------- footer ---------------------------------*/
 
 .footer {
-  padding: 100px 0;
   background: var(--navy-blue);
 }
 
@@ -264,7 +245,6 @@ h2 {
   color: var(--cloud);
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 264px;
 }
 
 
@@ -275,7 +255,6 @@ h2 {
 }
 
 .filters-list {
-  display: flex;
   justify-content: center;
 }
 
@@ -284,11 +263,9 @@ h2 {
 }
 
 .filters-button {
-  padding: 12px 24px;
   color: var(--iris);
   background-color: var(--cloud);
   border: 1px solid var(--cornflower);
-  border-radius: 4px;
 
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.04em;
@@ -309,9 +286,7 @@ h2 {
 }
 
 .cards-list {
-  display: flex;
   flex-wrap: wrap;
-  padding: 0;
 }
 
 .cards-item {
@@ -320,7 +295,5 @@ h2 {
 }
 
 .cards-item-content {
-  padding: 32px 16px;
-  gap: 8px;
   align-self: stretch;
 }
