@@ -268,8 +268,7 @@ h3 {
 }
 
 .footer-logo-text{
-  var(--cloud);
-  color:var(--)
+  color:var(--iris)
 }
 
 .footer-text {
