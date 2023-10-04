@@ -204,12 +204,14 @@ h3 {
 
 }
 
-.we-doing-list {
-  display: flex;
-}
-
 .we-doing-title {
   margin-bottom: 72px;
+   font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:var(--navy-blue)
 }
 
 .we-doing-item {
