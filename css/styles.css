@@ -45,8 +45,11 @@ h2 {
 }
 
 h3 {
-  font-weight: medium;
+  font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
 
 .logo {
@@ -181,11 +184,6 @@ h3 {
 
 .about-us-title {
   margin-bottom: 8px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
 }
 
 .about-us-text {
@@ -236,10 +234,6 @@ h3 {
   color: var(--navy-blue);
 }
 
-.team-list {
-  display: flex;
-}
-
 .team-item {
   margin-right: 24px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -252,11 +246,6 @@ h3 {
 
 .team-item-main-title {
   margin-bottom: 8px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
 }
 
 .team-item-main-text {
