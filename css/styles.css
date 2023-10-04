@@ -35,11 +35,6 @@ body {
   margin: 0 20px;
 }
 
-.link:hover,
-.link:focus {
-  color: var(--hover-links);
-}
-
 li {
   list-style: none;
 }
@@ -103,7 +98,10 @@ h3 {
   letter-spacing: 0.02em;
 }
 
-
+.menu-list:hover,
+.menu-list:focus {
+  color: var(--hover-links);
+}
 
 .contacts {
   margin-left: 312px;
@@ -120,6 +118,10 @@ h3 {
   letter-spacing: 0.02em;
 }
 
+.contact:hover,
+.contact:focus {
+  color: var(--hover-links);
+}
 
 /* ----------section 1----------- */
 
