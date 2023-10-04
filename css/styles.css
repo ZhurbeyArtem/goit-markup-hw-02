@@ -96,6 +96,10 @@ h2 {
 
 .menu {}
 
+.menu-list{
+  color:var(--navy-blue);
+}
+
 .menu-list:hover,
 .menu-list:focus {
   color: var(--hover-links);
