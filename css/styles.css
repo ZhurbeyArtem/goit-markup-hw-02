@@ -206,12 +206,12 @@ h3 {
 
 .we-doing-title {
   margin-bottom: 72px;
-   font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color:var(--navy-blue)
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue)
 }
 
 .we-doing-item {
@@ -228,6 +228,12 @@ h3 {
 
 .team-title {
   margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
 }
 
 .team-list {
@@ -237,6 +243,7 @@ h3 {
 .team-item {
   margin-right: 24px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  background-color: var(--white);
 }
 
 .team-item-main {
@@ -245,10 +252,19 @@ h3 {
 
 .team-item-main-title {
   margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
 
 .team-item-main-text {
-  color: var(--slate)
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
 }
 
 /* -------------------- footer ---------------------------------*/
