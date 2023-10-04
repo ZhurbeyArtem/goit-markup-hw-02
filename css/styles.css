@@ -35,6 +35,11 @@ body {
   margin: 0 20px;
 }
 
+.link:hover,
+.link:focus {
+  color: var(--hover-links);
+}
+
 li {
   list-style: none;
 }
@@ -44,12 +49,20 @@ h2 {
   font-size: 36px;
 }
 
-h3 {
+.title-large {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+}
+
+.paragraph{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
 
 .logo {
@@ -94,24 +107,7 @@ h3 {
 
 .menu-list {
   padding: 24px 0;
-  color: var(--navy-blue);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
-
-.link:hover,
-.link:focus {
-  color: var(--hover-links);
-}
-
-.menu-list:hover,
-.menu-list:focus {
-  color: var(--hover-links);
-}
-
-
 
 .contacts {
   margin-left: 312px;
@@ -184,14 +180,6 @@ h3 {
 
 .about-us-title {
   margin-bottom: 8px;
-}
-
-.about-us-text {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--slate);
 }
 
 /*-------------------------- section 3 ----------------------*/
@@ -303,12 +291,9 @@ h3 {
   border: 1px solid var(--cornflower);
   border-radius: 4px;
 
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  /* 150% */
-  letter-spacing: 0.64px;
+ font-family: "Roboto", sans-serif;
+ letter-spacing: 0.04em;
+ cursor:pointer;
 }
 
 .filters-button:focus,
@@ -339,15 +324,4 @@ h3 {
   padding: 32px 16px;
   gap: 8px;
   align-self: stretch;
-}
-
-.cards-item-content>h3 {
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 0.4px;
-}
-
-.cards-item-content>p {
-  color: var(--slate);
-  letter-spacing: 0.32px;
 }
